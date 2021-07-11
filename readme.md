@@ -12,16 +12,19 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 6| Present | Incomplete
 ## Project Description
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+
+Edit: The three websites below all have qualities in my final portfolio that i'd like to incorporate. The first link has the basic layout that I'd like to emulate and the last two have styling components that I like. If possible, i'd like to learn how to make my profile picture interactive and how to get the same nav bar shown on the first link. The project cards in the first link are also something i'd like to emulate. 
 ## Portfolio I want to Emulate
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)%7C landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+| [http://www.pascalvangemert.nl/](http://www.pascalvangemert.nl/) | Nav Bar, Project Cards, Contact Footer|
+|[https://facility.team/en](https://facility.team/en/) | Separation of pages, "About Us" opaque background text |
+| [https://robbowen.digital/](https://robbowen.digital/) | Animated profile picture, "Hi, my name is .." |
 ---
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
+- [My WireFrame:] (https://wireframepro.mockflow.com/view/M47d1e6f86ba19daacec082d8aaaa18241626035885244)
 - [Mobile](https://i.imgur.com/P3iBEZf.jpg)
 - [Desktop](https://i.imgur.com/xpOWo0E.jpg)
 Wireframing Resources:
