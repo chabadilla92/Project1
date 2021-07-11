@@ -70,7 +70,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Interactive Banner, Animation | M | 6hr | hr |
 | Project Cards, responsive hover | H | 3hr|  hr | 
 | Nav Bar Scroll| H | 4hr | hr |
-| Total | H | 13hrs| hrs |
+| Additional CSS styling | M | 2hr |
+| Total | H | 15hrs| hrs |
 ## Additional Libraries
  Use this section to list all supporting libraries and their role in the project. 
 ## Code Snippet
