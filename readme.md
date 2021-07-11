@@ -32,6 +32,8 @@ Wireframing Resources:
 - [Figma](https://www.figma.com/)
 ## Time/Priority Matrix 
 [Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+My Time/Priority Matrix: 
+[Link](https://imgur.com/RmJxKi9)
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
 Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
@@ -51,27 +53,27 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
+| Nav Bar | H | 2hr | hr |
+| Banner + Photo | L | 2hr | hr |
+| Grid: About Me + Projects + Footer| H | 3hr | hr |  
+| Project Cards, Flex | M | 2hr|  hr | 
+| Project Cards, jquery hover + images | H | 2hr|  hr | 
+| Footer: Contact| M | 2hr | hr|
+| Social Media Icons | L | 2hr |  hr |
+| Form, Submit | L | 2hr |  hr |
 | Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Responsive, Mobile, Tablet Desktop | H | 3hr | hr | hr |
+
+| Total | H | 23hrs| hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Interactive Banner, Animation | M | 6hr | hr |
+| Bootstrap | H | 3hr | hr |
+| Nav Bar Scroll| H | 3hr | hr |
+| Total | H | 12hrs| hrs |
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ Use this section to list all supporting libraries and their role in the project. 
 ## Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 ```
