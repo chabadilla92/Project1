@@ -53,25 +53,24 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Nav Bar | H | 2hr | hr |
+| Nav Bar, jquery click | H | 3hr | hr |
 | Banner + Photo | L | 2hr | hr |
-| Grid: About Me + Projects + Footer| H | 3hr | hr |  
+| Bootstrap Grid: About Me + Projects + Footer| H | 3hr | hr |  
 | Project Cards, Flex | M | 2hr|  hr | 
-| Project Cards, jquery hover + images | H | 2hr|  hr | 
 | Footer: Contact| M | 2hr | hr|
 | Social Media Icons | L | 2hr |  hr |
 | Form, Submit | L | 2hr |  hr |
 | Working with API | H | 3hrs|  hr | 
 | Responsive, Mobile, Tablet Desktop | H | 3hr | hr | hr |
 
-| Total | H | 23hrs| hrs |
+| Total | H | 22hrs| hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Interactive Banner, Animation | M | 6hr | hr |
-| Bootstrap | H | 3hr | hr |
-| Nav Bar Scroll| H | 3hr | hr |
-| Total | H | 12hrs| hrs |
+| Project Cards, responsive hover | H | 3hr|  hr | 
+| Nav Bar Scroll| H | 4hr | hr |
+| Total | H | 13hrs| hrs |
 ## Additional Libraries
  Use this section to list all supporting libraries and their role in the project. 
 ## Code Snippet
