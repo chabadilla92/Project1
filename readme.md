@@ -55,7 +55,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | 
 | Nav Bar, jquery click | H | 3hr | hr |
 | Banner + Photo | L | 2hr | hr |
-| Bootstrap Grid: About Me + Projects + Footer| H | 3hr | hr |  
+| CSS Grid: About Me + Projects + Footer| H | 3hr | hr |  
 | Project Cards, Flex | M | 2hr|  hr | 
 | Footer: Contact| M | 2hr | hr|
 | Social Media Icons | L | 2hr |  hr |
