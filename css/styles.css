@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    background: teal;
+    padding: 8px;
+
+    }
+
+    /* Nav links styling */
+nav div a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    }
+
+.hamburger {
+    display: none;
+    color: white;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+    /* Maybe use this for the portrait? */
+/* nav div a:hover {
+   font-size: larger;
+    } */
+
+/* Container div for grid */
+#container {
+    display: grid;
+
+    grid-template-areas:
+    "header header header header"
+    "about about about about"
+    "main main main main"
+    "footer footer footer footer";
+}
+
+/* Grid Area: Header */
+#header {
+    background-color: lightgray;
+    grid-area: header;
+    height: 200px;
+
+}
+
+/* "Hi my name is Chris */
+h1 {
+    font-size: 16px;
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
+
+/* Grid Area: About Me */
+#about {
+    background-color: white;
+    grid-area: about;
+    height: 200px;
+    border: 2px black solid;
+
+}
+
+#quote {
+    position: relative;
+    top: 40%;
+}
+
+#me {
+    position: relative;
+    top: 50%;
+    text-align: right;
+}
+
+#background {
+    display: float;
+    font-size: 40px;
+    color: black;
+    position: relative;
+    top: 10%;
+    left: 15%;
+    width: 200px;
+    text-align: center;
+    opacity: 0.15;
+}
+
+/* Grid Area: Project Cards */
+#main {
+    background-color: blue;
+    grid-area: main;
+    height: 1320px;
+
+}
+
+/* MY PROJECTS Main Header */
+h2 {
+    text-align: center;
+}
+
+/* Center Project Card Header */
+h3 {
+    text-align: center;
+
+}
+/* Project Card Header links styling */
+h3 > a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Description */
+.project > p {
+    text-align: center;
+}
+
+/* Project Card Images */
+p > img {
+    object-fit: cover;
+    width: 100%;
+
+}
+
+/* Grid Area: Contact */
+#footer {
+    background-color: green;
+    grid-area: footer;
+    height: 100px;
+}
+
+#social {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#social > ul {
+    padding: 10px;
+}
+
+
+/* Styling Hamburger Icon for Mobile */
+@media (max-width: 500px) {
+    nav {
+        display: block;
+        text-align: right;
+
+    }
+   
+    .hamburger {
+        display: block;
+        text-align: right;
+    }
+
+    nav div a {
+        margin-right: 10px;
+    }
+
+    /* Nav Links */
+    .link {
+        display: none;
+        background: teal;
+        font-size: 14px;
+        transition: background-color .5s, color .5s;
+    }
+
+    nav div a:hover {
+        font-size: smaller;
+        /* background-color: black;
+        color: red; */ 
+        /* Settings for the font color and background color after clicking on nav list */
+    }
+
+}

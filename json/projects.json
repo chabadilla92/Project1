@@ -1,13 +1,30 @@
 [
     {
         "title": "Project 1",
-        "description": "",
-        "image": "",
-        "github": "",
-        "live": "",
-    }
+        "description": "Built my first personal website using CSS and HTML.",
+        "image": "https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg",
+        "github": "https://github.com/chabadilla92/ChrisRepo",
+        "live": "http://dash.ga.co/ch.abadilla/build-your-own-personal-website"
+    },
     {
         "title": "Project 2",
-        "description": "", 
+        "description": "GEARED: Video Game Review blog created using CSS and HTML", 
+        "image": "https://www.playhawken.com/images/media/wallpapers/rocketeer.jpg",
+        "github": "https://github.com/chabadilla92/ChrisRepo",
+        "live": "http://dash.ga.co/ch.abadilla/build-your-own-blog-theme"
+    },
+    {
+        "title": "Project 3",
+        "description": "Syndicate Gaming: Gaming Merchandise website, Created using HTML, CSS, and JavaScript",
+        "image": "https://mcdn.wallpapersafari.com/medium/8/31/wYIqMz.png",
+        "github": "https://github.com/chabadilla92/ChrisRepo",
+        "live": "https://dash.generalassemb.ly/ch.abadilla/build-your-own-business-website"
+    },
+    {
+        "title": "Project 4",
+        "description": "Portfolio Website: Created using HTML, CSS, JS, and jQuery",
+        "image": "https://www.websolutionsz.com/wp-content/uploads/2017/06/Portfolio-web-design.jpg",
+        "github": "https://github.com/chabadilla92/ChrisRepo",
+        "live": "https://project-one-seven.vercel.app/"
     }
 ]
