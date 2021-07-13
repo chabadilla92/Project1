@@ -31,7 +31,6 @@ nav div a {
 /* Container div for grid */
 #container {
     display: grid;
-
     grid-template-areas:
     "header header header header"
     "about about about about"
@@ -48,11 +47,17 @@ nav div a {
 }
 
 /* "Hi my name is Chris */
-h1 {
+#h1 {
     font-size: 16px;
     position: relative;
     top: 40%;
     left: 10%;
+    margin: 10px auto;
+    display: inline;
+}
+
+.portrait {
+
 }
 
 /* Grid Area: About Me */
@@ -60,7 +65,7 @@ h1 {
     background-color: white;
     grid-area: about;
     height: 200px;
-    border: 2px black solid;
+
 
 }
 
@@ -76,12 +81,10 @@ h1 {
 }
 
 #background {
-    display: float;
     font-size: 40px;
     color: black;
     position: relative;
-    top: 10%;
-    left: 15%;
+    margin: 20px auto;
     width: 200px;
     text-align: center;
     opacity: 0.15;
@@ -89,15 +92,17 @@ h1 {
 
 /* Grid Area: Project Cards */
 #main {
-    background-color: blue;
+
     grid-area: main;
     height: 1320px;
 
 }
 
 /* MY PROJECTS Main Header */
-h2 {
+#h2 {
     text-align: center;
+    margin: 20px auto;
+    opacity: 0.15;
 }
 
 /* Center Project Card Header */
@@ -125,9 +130,9 @@ p > img {
 
 /* Grid Area: Contact */
 #footer {
-    background-color: green;
     grid-area: footer;
-    height: 100px;
+    height: 150px;
+    background-color: teal;
 }
 
 #social {
@@ -136,10 +141,26 @@ p > img {
 
 }
 
+#h4 {
+    text-align: center;
+    opacity: 0.15;
+}
+
+#form {
+    text-align: center;
+
+}
+
+/* Social Media Icon ul padding */
 #social > ul {
     padding: 10px;
 }
 
+/* Social Media Icon text styling */
+#social > ul > a {
+    text-decoration: none;
+    color: white;
+}
 
 /* Styling Hamburger Icon for Mobile */
 @media (max-width: 500px) {
@@ -173,4 +194,79 @@ p > img {
         /* Settings for the font color and background color after clicking on nav list */
     }
 
+}
+
+@media (min-width: 768px) {
+nav {
+    justify-content: flex-end;
+
+}
+
+/* Link classes */
+nav div a {
+    padding: 10px;
+}
+
+/* "Hi, my name is Chris */
+h1 {
+
+    width: 100px;
+}
+
+/* Portrait photo */
+.portrait {
+    position: relative;
+    top: 50%;
+
+    width: 100px;
+    margin: 10px auto;
+}
+
+/* ABOUT ME */
+#background {
+    width: 100%;
+    font-size: 50px;
+    position: relative;
+    margin: 40px auto;
+}
+
+/* Project CSS Grid */
+#main {
+    height: 330px;
+}
+
+/* PROJECTS */
+#h2 {
+    position: relative;
+    font-size: 50px;
+    top: 40%;
+}
+
+/* Parent container for project flex cards */
+#main2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -70px;
+}
+
+/* Project Cards */
+.project {
+    width: 130px;
+}
+
+#social {
+    justify-content: center;
+}
+
+#h4 {
+    font-size: 50px;
+    text-align: center;
+    top: 30%;
+    position: relative;
+}
+
+#form {
+    position: relative;
+    bottom: 25%;
+}
 }

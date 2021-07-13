@@ -85,7 +85,7 @@ $hamburger.on('click', showMenu)
 // customElements.define("my-carousel", Carousel)
 
 
-const projects = $("#main")
+const projects = $("#main2")
 
 $.ajax("./json/projects.json")
 .then((data) => {
