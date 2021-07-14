@@ -7,6 +7,7 @@ html {
 }
 /* /////////////////////////// NAV ///////////////////////////// */
 
+
 nav {
     display: flex;
     background: #F3EFE0;
@@ -68,7 +69,7 @@ nav div a {
     font-weight: bold;
 }
 
-.arrow {
+.arrow1, .arrow {
     color: navy;
 }
 
@@ -76,8 +77,8 @@ nav div a {
     background: url('https://lh3.googleusercontent.com/-BWTcJe36Pa0NSck61CMHscTFEAflV0kxcIpGPLbgUULrCHOlyQ_eS78ndQMjsFFxWPoW1qOa4JvPQFAaFvCd_jxsS3z17lgd_YgPunEkpdlmbpqm17DsNt-Y-jqfOf3vwkuyl91wwpqY13KzD1JeSYJRQlDFitDqQGlFg-SiqIaWyEb9gcrXnv8pDoA8wB4qo3_d2kbpjeMZJFhSM-e4YyQGGXlpeegd5AjxfhqL1njjkK5Yt07jdt27yvwtjd8gJbSpwcwnsjJBDeyB5qVnBTQDmDncKtxtNzVnZ4sEv2A_048BvGhswJ5-4TRIbDP3BBv43nnDgHF4dKXKfqftNBhyPX11Z7rnHiSAXCNBc8tz5KYAUH10pAn3w0JBjoiemh7V8YPlnm9bpb5NsQjA8Gz2V2ybCgR9J9J13c7VWIoQp7eaEDe-fDi1uw28BFcmIfNXgESwqMrRnrOb_Hprk9Mu20jPz7uOK2eTZU15sbDiSXQp32n-W2mLw5IApUc3V1INiq_yRzztIsE5dM5ChI1PM98Rk1pV_UhKGk3w5ovC-VYUlqivU0nnp6socVXP5fhF-iKho4f94mtfPjJJmIof_aUzCikom0Lp8-lSkYK5QmrCCfFsgrgoPZG3OW5hyP1h4mfa2SV4QdCSu9UVyVem4wzoTcQZ7Z27B7Ehfyu4FbxCvgMDOtaqo17Ki3ixxuWinN4JoxP8gjOSEn5wCk=w1299-h734-no?authuser=0');
     background-size: cover;
     height: 300px;
-
 }
+
 /* //////////////////////  ABOUT ME  //////////////////////////////// */
 
 
@@ -305,14 +306,23 @@ nav {
     height: 100%;
 }
 
+#header {
+    position: relative;
+}
+
+.arrow1 {
+    display: none;
+
+}
 
 #h1 {
     top: 50%;
-    width: 100%;
+    width: 250px;
     padding: 0;
     display: inline;
     left: 50%;
     color: white;
+    position: absolute;
 }
 
 #flexabout {
@@ -340,8 +350,6 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
 }
 
 .project {
@@ -357,4 +365,107 @@ nav {
     justify-content: center;
 }
 
+}
+
+
+@media (min-width: 1024px) {
+
+#header {
+    height: 820px;
+
+}
+
+.portrait {
+    height: 80%;
+    margin-top: 75px;
+}
+
+#h1 {
+    left: 60%;
+    font-size: 40px;
+}
+
+#about {
+    border: none;
+    height: 900px;
+}
+
+
+#background {
+    font-size: 60px;
+    margin-top: 40px;
+    border: none;
+
+}
+
+#flexabout {
+    display: block;
+}
+
+#quote {
+    width: 500px;
+    font-size: 40px;
+    text-align: center;
+    margin: 60px auto;
+}
+
+#me {
+    font-size: 40px;
+    width: 600px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+#main {
+    border: none;
+    height: 1200px;
+}
+
+#h2 {
+    font-size: 60px;
+    margin-top: 40px;
+    border: none;
+}
+
+#main2 {
+    margin: 40px auto;
+}
+
+.project {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+#h4 {
+    font-size: 60px;
+}
+
+#footer {
+    height: 400px;
+}
+
+#form {
+    margin-top: 40px;
+
+}
+
+#social {
+    margin-top: 40px;
+}
+
+#social > ul {
+    font-size: 25px;
+}
+
+input[type="email"] {
+    font-size: 25px;
+}
+
+input[type="submit"] {
+    font-size: 25px;
+}
 }
