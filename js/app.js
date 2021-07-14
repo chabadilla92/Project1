@@ -92,7 +92,7 @@ $.ajax("./json/projects.json")
     data.forEach((project) => {
         const div = $("<figure class='project'>")
         div.html(`
-        <img src='${project.image}'/>
+        <a href="${project.live}"><img src='${project.image}'/></a>
         <figcaption>
         <h3><a href="${project.live}">${project.title}</a></h3>
         <p>${project.description}</p></figcaption>
