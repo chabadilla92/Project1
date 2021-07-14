@@ -3,7 +3,7 @@ html {
 }
 
 #color {
-    color: navy;
+    color: #DC143C;
 }
 /* /////////////////////////// NAV ///////////////////////////// */
 
@@ -12,12 +12,12 @@ nav {
     display: flex;
     background: #F3EFE0;
     padding: 8px;
-    border-bottom: 4px solid #4DA6A1;
+    border-bottom: 4px solid #434242;
     }
 
     /* Nav links styling */
 nav div a {
-    color: #4DA6A1;
+    color: #434242;
     text-decoration: none;
     font-size: 16px;
     font-family: 'Unica One', cursive;
@@ -26,7 +26,7 @@ nav div a {
 
 .hamburger {
     display: none;
-    color: #4DA6A1;
+    color: #434242;
     margin-right: 10px;
     font-size: 24px;
 }
@@ -62,7 +62,7 @@ nav div a {
     font-size: 25px;
     position: relative;
     margin-left: 20px;
-    color: #4DA6A1;
+    color: #434242;
     width: 50%;
     padding: .2em;
     font-family: 'Unica One', cursive;
@@ -70,7 +70,7 @@ nav div a {
 }
 
 .arrow1, .arrow {
-    color: navy;
+    color: #DC143C;
 }
 
 .portrait {
@@ -87,16 +87,16 @@ nav div a {
     background-color: #F3EFE0;
     grid-area: about;
     height: 630px;
-    border-top: 4px solid #4DA6A1;
+    border-top: 4px solid #434242;
 }
 
 /* "ABOUT ME" */
 #background {
     font-size: 40px;
-    color: #4DA6A1;
+    color: #434242;
     position: relative;
     font-family: 'Unica One', cursive;
-    border-bottom: 4px solid #4DA6A1;
+    border-bottom: 4px solid #434242;
     padding: 30px;
     text-align: center;
 }
@@ -110,13 +110,13 @@ nav div a {
     font-size: 28px;
     font-family: 'Unica One', cursive;
     color: white;
-    background: #4DA6A1;
+    background: #434242;
 }
 
 #me {
     position: relative;
     text-align: center;
-    background: #4DA6A1;
+    background: #434242;
     margin: 40px;
     height: 240px;
     font-size: 20px;
@@ -125,9 +125,6 @@ nav div a {
     color: white;
 }
 
-.arrow1 {
-    color: navy;
-}
 
 
 /* ///////////////////////  PROJECTS  //////////////////////////// */
@@ -137,8 +134,8 @@ nav div a {
 #main {
     grid-area: main;
     height: 1100px;
-    border-top: 4px solid #4DA6A1;
-    border-bottom: 4px solid #4DA6A1;
+    border-top: 4px solid #434242;
+    border-bottom: 4px solid #434242;
 }
 
 /* MY PROJECTS Main Header */
@@ -146,9 +143,9 @@ nav div a {
     text-align: center;
     padding: 30px;
     font-size: 40px;
-    border-bottom: 4px solid #4DA6A1;
+    border-bottom: 4px solid #434242;
     font-family: 'Unica One', cursive;
-    color: #4DA6A1;
+    color: #434242;
 }
 
 /* Parent Element */
@@ -182,7 +179,7 @@ figure.project:hover img {
 
 /* Center Project Card Header */
 h3 {
-    color: navy;
+
     text-align: center;
     font-family: 'Unica One', cursive;
     margin-top: 10px;
@@ -191,7 +188,7 @@ h3 {
 /* Project Card Header links styling */
 h3 > a {
     text-decoration: none;
-    color: navy;
+    color: #434242;
 
 
 }
@@ -277,7 +274,6 @@ input[type="submit"] {
 
     /* Nav Links */
     .link {
-        display: none;
         font-size: 14px;
         transition: background-color .5s, color .5s;
     }
