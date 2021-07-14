@@ -12,11 +12,16 @@
     <script src="./js/app.js" defer></script>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&family=Unica+One&display=swap" rel="stylesheet">
+
+
+
 
 <body>
-  <!-- Navigation Bar, Hamburger -->
-  <nav>
+<nav>
     <div class="hamburger">☰</div>
     <div class="link"><a href="#about">ABOUT</a></div>
     <div class="link"><a href="#main">PROJECTS</a></div>
@@ -29,18 +34,19 @@
   <!-- Main body, css grid layout -->
 <div id="container">
   <div id="header">
-    <div id="h1">Hi, my name is Chris</div>
-    <div class="portrait">yoyoy </div>
+    <div id="h1">Hi, my name is Chris <span class="arrow">&#8594;</span>
+    </div>
+    <div class="portrait"></div>
   </div>
 
   <div id="about">
-    <section id="quote">"Insert Quote Here"</section>
-    <section id="me">Here is some text about myself ..</section>
-    <div id="background">ABOUT ME</div>
+    <div id="background">ABOUT <span id="color">ME</span><span class="arrow">&#8595;</span></div>
+    <div id="quote">"Work <span id="color">nourishes</span> noble minds." <span id="color">Seneca</span></div>
+    <div id="me"><span class="arrow1">&#8594;</span> I am an aspiring developer who is currently enrolled in General Assembly's online bootcamp. I have experience working with <span id="color">HTML</span>, <span id="color">CSS</span>, <span id="color">JS</span>, and <span id="color">jQuery</span>. Below are a list of my projects..</div>
   </div>
 
   <div id="main">
-    <div id="h2">PROJECTS</div>
+    <div id="h2"><span class="arrow">&#8595;</span> PROJECTS</div>
     <div id="main2"></div>
   </div>
     

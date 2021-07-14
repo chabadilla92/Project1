@@ -90,12 +90,12 @@ const projects = $("#main2")
 $.ajax("./json/projects.json")
 .then((data) => {
     data.forEach((project) => {
-        const div = $("<div class='project'>")
+        const div = $("<figure class='project'>")
         div.html(`
+        <img src='${project.image}'/>
+        <figcaption>
         <h3><a href="${project.live}">${project.title}</a></h3>
-        
-        <a href="${project.live}"><p class="img"><img src='${project.image}'/></p></a>
-        <p>${project.description}</p>
+        <p>${project.description}</p></figcaption>
         `)
         // const par = $("<p>")
         // par.css("background", ${project.image})

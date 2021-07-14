@@ -2,31 +2,42 @@ html {
     scroll-behavior: smooth;
 }
 
+#color {
+    color: navy;
+}
+/* /////////////////////////// NAV ///////////////////////////// */
+
 nav {
     display: flex;
-    background: teal;
+    background: #F3EFE0;
     padding: 8px;
-
+    border-bottom: 4px solid #4DA6A1;
     }
 
     /* Nav links styling */
 nav div a {
-    color: white;
+    color: #4DA6A1;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
+    font-family: 'Unica One', cursive;
+    background: #F3EFE0;
     }
 
 .hamburger {
     display: none;
-    color: white;
+    color: #4DA6A1;
     margin-right: 10px;
     font-size: 24px;
 }
+
+
 
     /* Maybe use this for the portrait? */
 /* nav div a:hover {
    font-size: larger;
     } */
+
+/* //////////////////////// HEADER ////////////////////////////// */
 
 /* Container div for grid */
 #container {
@@ -40,115 +51,198 @@ nav div a {
 
 /* Grid Area: Header */
 #header {
-    background-color: lightgray;
+    background: #FDFFFC;
     grid-area: header;
-    height: 200px;
-
+    height: 480px;
+    background: 
 }
 
 /* "Hi my name is Chris */
 #h1 {
-    font-size: 16px;
+    font-size: 25px;
     position: relative;
-    top: 40%;
-    left: 10%;
-    margin: 10px auto;
-    display: inline;
+    margin-left: 20px;
+    color: #4DA6A1;
+    width: 50%;
+    padding: .2em;
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
+}
+
+.arrow {
+    color: navy;
 }
 
 .portrait {
+    background: url('https://lh3.googleusercontent.com/-BWTcJe36Pa0NSck61CMHscTFEAflV0kxcIpGPLbgUULrCHOlyQ_eS78ndQMjsFFxWPoW1qOa4JvPQFAaFvCd_jxsS3z17lgd_YgPunEkpdlmbpqm17DsNt-Y-jqfOf3vwkuyl91wwpqY13KzD1JeSYJRQlDFitDqQGlFg-SiqIaWyEb9gcrXnv8pDoA8wB4qo3_d2kbpjeMZJFhSM-e4YyQGGXlpeegd5AjxfhqL1njjkK5Yt07jdt27yvwtjd8gJbSpwcwnsjJBDeyB5qVnBTQDmDncKtxtNzVnZ4sEv2A_048BvGhswJ5-4TRIbDP3BBv43nnDgHF4dKXKfqftNBhyPX11Z7rnHiSAXCNBc8tz5KYAUH10pAn3w0JBjoiemh7V8YPlnm9bpb5NsQjA8Gz2V2ybCgR9J9J13c7VWIoQp7eaEDe-fDi1uw28BFcmIfNXgESwqMrRnrOb_Hprk9Mu20jPz7uOK2eTZU15sbDiSXQp32n-W2mLw5IApUc3V1INiq_yRzztIsE5dM5ChI1PM98Rk1pV_UhKGk3w5ovC-VYUlqivU0nnp6socVXP5fhF-iKho4f94mtfPjJJmIof_aUzCikom0Lp8-lSkYK5QmrCCfFsgrgoPZG3OW5hyP1h4mfa2SV4QdCSu9UVyVem4wzoTcQZ7Z27B7Ehfyu4FbxCvgMDOtaqo17Ki3ixxuWinN4JoxP8gjOSEn5wCk=w1299-h734-no?authuser=0');
+    background-size: cover;
+    height: 300px;
 
 }
+/* //////////////////////  ABOUT ME  //////////////////////////////// */
+
 
 /* Grid Area: About Me */
 #about {
-    background-color: white;
+    background-color: #F3EFE0;
     grid-area: about;
-    height: 200px;
+    height: 630px;
+    border-top: 4px solid #4DA6A1;
+}
 
-
+/* "ABOUT ME" */
+#background {
+    font-size: 40px;
+    color: #4DA6A1;
+    position: relative;
+    font-family: 'Unica One', cursive;
+    border-bottom: 4px solid #4DA6A1;
+    padding: 30px;
+    text-align: center;
 }
 
 #quote {
     position: relative;
-    top: 40%;
+    text-align: center;
+    margin: 40px;
+    height: 100px;
+    padding: 10px;
+    font-size: 28px;
+    font-family: 'Unica One', cursive;
+    color: white;
+    background: #4DA6A1;
 }
 
 #me {
     position: relative;
-    top: 50%;
-    text-align: right;
+    text-align: center;
+    background: #4DA6A1;
+    margin: 40px;
+    height: 240px;
+    font-size: 20px;
+    padding: 1em;
+    font-family: 'Unica One', cursive;
+    color: white;
 }
 
-#background {
-    font-size: 40px;
-    color: black;
-    position: relative;
-    margin: 20px auto;
-    width: 200px;
-    text-align: center;
-    opacity: 0.15;
+.arrow1 {
+    color: navy;
 }
+
+
+/* ///////////////////////  PROJECTS  //////////////////////////// */
+
 
 /* Grid Area: Project Cards */
 #main {
-
     grid-area: main;
-    height: 1320px;
-
+    height: 1100px;
+    border-top: 4px solid #4DA6A1;
+    border-bottom: 4px solid #4DA6A1;
 }
 
 /* MY PROJECTS Main Header */
 #h2 {
     text-align: center;
-    margin: 20px auto;
-    opacity: 0.15;
+    padding: 30px;
+    font-size: 40px;
+    border-bottom: 4px solid #4DA6A1;
+    font-family: 'Unica One', cursive;
+    color: #4DA6A1;
 }
+
+/* Parent Element */
+.project {
+    position: relative;
+    /* overflow: hidden; */
+    background-size: 100%;
+}
+
+/* Image */
+img {
+    /* transform: translate3d(-30px, 0, 0), scale(1.2); */
+    /* transition: 0.35s, transform 0.35s; */
+    width: 100%;
+
+    /* margin-top: 50px; */
+}
+
+
+
+/* figure.project:hover p {
+    opacity: 1;
+    transform: translate(0px,0,0)
+}
+
+figure.project:hover img {
+    transform: translate3d(0px, 0,0), scale(1);
+    opacity: .5;
+} */
+
 
 /* Center Project Card Header */
 h3 {
+    color: navy;
     text-align: center;
-
+    font-family: 'Unica One', cursive;
+    margin-top: 10px;
 }
+
 /* Project Card Header links styling */
 h3 > a {
     text-decoration: none;
-    color: black;
+    color: navy;
+
+
 }
 
 /* Description */
-.project > p {
+figcaption  p {
+    color: #4DA6A1;
+    font-size: 15px;
     text-align: center;
+    font-family: 'Unica One', cursive;
+    margin: 10px;
+    /* transition: opacity 0.35s, transform 0.35s; 
+    transform: translate3d(-40px, 0, 0); */
 }
 
-/* Project Card Images */
-p > img {
-    object-fit: cover;
-    width: 100%;
 
-}
+
+/* //////////////////  CONTACT  ///////////////////////// */
 
 /* Grid Area: Contact */
 #footer {
     grid-area: footer;
-    height: 150px;
-    background-color: teal;
-}
-
-#social {
-    display: flex;
-    justify-content: space-evenly;
-
+    height: 230px;
+    background-color: #434242;
+    
 }
 
 #h4 {
     text-align: center;
-    opacity: 0.15;
+    padding: 30px;
+    font-size: 40px;
+    font-family: 'Unica One', cursive;
+    color: white;
 }
+#social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 #form {
     text-align: center;
 
+}
+
+input[type="email"] {
+    font-family: 'Unica One', cursive;
+}
+
+input[type="submit"] {
+    font-family: 'Unica One', cursive;
 }
 
 /* Social Media Icon ul padding */
@@ -162,6 +256,8 @@ p > img {
     color: white;
 }
 
+
+/* //////////////////////////////////////////////////////////// */
 /* Styling Hamburger Icon for Mobile */
 @media (max-width: 500px) {
     nav {
@@ -182,7 +278,6 @@ p > img {
     /* Nav Links */
     .link {
         display: none;
-        background: teal;
         font-size: 14px;
         transition: background-color .5s, color .5s;
     }
@@ -268,5 +363,10 @@ h1 {
 #form {
     position: relative;
     bottom: 25%;
+}
+
+#footer {
+
+
 }
 }

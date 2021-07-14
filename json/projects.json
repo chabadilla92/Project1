@@ -2,28 +2,28 @@
     {
         "title": "Project 1",
         "description": "Built my first personal website using CSS and HTML.",
-        "image": "https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg",
+        "image": "https://miro.medium.com/max/600/1*OFsc0SD55jhi8cjo7aCA4w.jpeg",
         "github": "https://github.com/chabadilla92/ChrisRepo",
         "live": "http://dash.ga.co/ch.abadilla/build-your-own-personal-website"
     },
     {
         "title": "Project 2",
         "description": "GEARED: Video Game Review blog created using CSS and HTML", 
-        "image": "https://www.playhawken.com/images/media/wallpapers/rocketeer.jpg",
+        "image": "https://acumbamail.com/blog/wp-content/uploads/2014/10/maquetacion-email-html.png",
         "github": "https://github.com/chabadilla92/ChrisRepo",
         "live": "http://dash.ga.co/ch.abadilla/build-your-own-blog-theme"
     },
     {
         "title": "Project 3",
         "description": "Syndicate Gaming: Gaming Merchandise website, Created using HTML, CSS, and JavaScript",
-        "image": "https://mcdn.wallpapersafari.com/medium/8/31/wYIqMz.png",
+        "image": "https://miro.medium.com/max/1400/1*LyZcwuLWv2FArOumCxobpA.png",
         "github": "https://github.com/chabadilla92/ChrisRepo",
         "live": "https://dash.generalassemb.ly/ch.abadilla/build-your-own-business-website"
     },
     {
         "title": "Project 4",
         "description": "Portfolio Website: Created using HTML, CSS, JS, and jQuery",
-        "image": "https://www.websolutionsz.com/wp-content/uploads/2017/06/Portfolio-web-design.jpg",
+        "image": "https://149348572.v2.pressablecdn.com/wp-content/uploads/2015/10/jquery.png",
         "github": "https://github.com/chabadilla92/ChrisRepo",
         "live": "https://project-one-seven.vercel.app/"
     }
